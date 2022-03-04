@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+    {{ page.title }} - {{ config.title }}
+{% endblock %}
+{% block page_meta %}
+{% if section.description %}
+    <meta content="{{ section.description | safe | default(value='') | truncate(length=150) }}" name="description"/>
+{% endif %}
+{% endblock page_meta %}
+{% block content %}
+    <main class="article-content">
+        {{ page.content | safe }}
+    </main>
+{% endblock content %}
