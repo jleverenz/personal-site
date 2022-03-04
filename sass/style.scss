@@ -187,11 +187,12 @@ article {
   }
 }
 
+main.centered {
+  text-align: center;
+}
+
 main.article-content {
   position: relative;
-  p {
-    text-align: justify;
-  }
 
   img {
     display: block;
