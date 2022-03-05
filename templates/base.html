@@ -13,6 +13,10 @@
         <meta name="google" content="notranslate">
         {% endblock site_meta %}
 
+        <link rel="icon"
+              type="image/x-icon"
+              href="/favicon.ico">
+
         {% block page_meta %}
         {% if config.description %}
         <meta name="description" content="{{ config.description | truncate(length=150) }}">
