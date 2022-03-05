@@ -1,5 +1,4 @@
 +++
-template = "page.html"
 title = "About this site"
 +++
 
