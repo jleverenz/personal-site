@@ -187,10 +187,6 @@ article {
   }
 }
 
-main.centered {
-  text-align: center;
-}
-
 main.article-content {
   position: relative;
 
@@ -236,8 +232,7 @@ main.article-content {
 footer {
   padding: 1rem 0;
   margin: 0 auto;
-  max-width: 540px;
-  text-align: center;
+  max-width: 640px;
 
   p {
     font-size: 0.9rem;
